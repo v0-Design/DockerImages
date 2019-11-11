@@ -10,6 +10,8 @@ RUN apt-get update \
         libssl1.1 \
         libstdc++6 \
         zlib1g \
+        git \
+        git-lfs \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update \
